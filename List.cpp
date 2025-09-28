@@ -70,7 +70,7 @@ struct List {
         }
     }
 
-    //duyệt ngược, O(n)
+    //duyệt ngược (đệ quy), O(n)
     void traverseReverse() {
         for (int i = size-1; i >= 0; i--) {
             cout << a[i] << " ";
